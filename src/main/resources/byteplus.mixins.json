@@ -1,0 +1,42 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.byteplus.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AbstractClientPlayerMixin",
+    "AvatarRendererMixin",
+    "BlockOutlineMixin",
+    "CameraMixin",
+    "ClientLevelMixin",
+    "ClientPacketListenerMixin",
+    "ConnectionMixin",
+    "EntityMixin",
+    "FogRendererMixin",
+    "FontMixin",
+    "GameRendererMixin",
+    "GlowMixins",
+    "GuiMixin",
+    "ItemInHandRendererMixin",
+    "KeyboardInputMixin",
+    "LevelRendererMixin",
+    "LivingEntityMixin",
+    "LivingEntityRendererMixin",
+    "LogoRendererMixin",
+    "MinecraftAccessor",
+    "MinecraftScreenMixin",
+    "MouseHandlerMixin",
+    "MultiPlayerGameModeMixin",
+    "OptionInstanceAccessor",
+    "PlayerSkinWidgetAccessor",
+    "RenderTargetMixin",
+    "ScreenPanoramaMixin",
+    "SkyRendererMixin",
+    "CloudRendererMixin",
+    "MultiPlayerGameModeAccessor",
+    "SplashRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
